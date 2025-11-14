@@ -1,0 +1,32 @@
+# === Python cache & compiled files ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environments ===
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# === OS / Editor files ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+
+# === Jupyter / Colab ===
+.ipynb_checkpoints/
+*.ipynb
+
+# === Streamlit local config (jangan dibawa ke repo publik) ===
+.streamlit/secrets.toml
+
+# === Log files ===
+*.log
+
+# === Misc ===
+*.tmp
+*.bak
